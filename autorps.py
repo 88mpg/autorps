@@ -3,8 +3,6 @@
  
 import tweepy, random, time
 
-
-# I know these should be private, but I'm lazy!
 CONSUMER_KEY = '[redacted]'
 CONSUMER_SECRET = '[redacted]'
 ACCESS_KEY = '[redacted]'
