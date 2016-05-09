@@ -5,10 +5,10 @@ import tweepy, random, time
 
 
 # I know these should be private, but I'm lazy!
-CONSUMER_KEY = 'SOwGXPNygQz1hYRFvVBeKbbCi'
-CONSUMER_SECRET = 'taLpjmLo7NDUCCXk1mi5slfl8einHREai3vO2wXKI5ME5m3Xpc'
-ACCESS_KEY = '267523999-CY6LqM4avT7WZxtarmdfKTmgdZyZea4r0Y7iIg5T'
-ACCESS_SECRET = 'AoY8UYFxkAwmUUoz6iVpsSZj7lEpUO3nkv4CYPKM76NzJ'
+CONSUMER_KEY = '[redacted]'
+CONSUMER_SECRET = '[redacted]'
+ACCESS_KEY = '[redacted]'
+ACCESS_SECRET = '[redacted]'
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
